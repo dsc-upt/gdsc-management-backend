@@ -6,9 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c14ab59-3368-4027-b996-b475f59ffb36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GDSCManagement/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/GDSCManagement.API/Entities/Project.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GDSCManagement.API/Entities/Team.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GDSCManagement.API/Entities/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GDSCManagement.API/Entities/UserProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDSCManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GDSCManagement/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gzeiOfs5rwV38Ywfj8zWOcQqla2qGq8PQS4IcvmaU6DmZ+kuitDPc4uyuFEutK7AdhEj4o799+uFnEjU0/1cIg==",
+  "success": true,
+  "projectFilePath": "E:\\GDSC\\gdsc-management-backend\\GDSCManagement\\GDSCManagement.API\\GDSCManagement.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gaita\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Gaita\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Gaita\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Gaita\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Gaita\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Gaita\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

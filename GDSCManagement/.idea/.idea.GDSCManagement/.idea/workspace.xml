@@ -6,11 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c14ab59-3368-4027-b996-b475f59ffb36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GDSCManagement.API/Entities/Project.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDSCManagement.API/Entities/Team.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDSCManagement.API/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDSCManagement.API/Entities/UserProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDSCManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GDSCManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDSCManagement.API/Entities/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GDSCManagement.API/Models/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDSCManagement.API/Entities/Project.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GDSCManagement.API/Models/Project.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDSCManagement.API/Entities/Team.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GDSCManagement.API/Models/Team.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDSCManagement.API/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GDSCManagement.API/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GDSCManagement.API/Entities/UserProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GDSCManagement.API/Models/UserProfile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

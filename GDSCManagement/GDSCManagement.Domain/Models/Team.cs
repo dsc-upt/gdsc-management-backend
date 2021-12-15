@@ -1,4 +1,6 @@
-﻿namespace GDSCManagement.API.Entities;
+﻿using GDSCManagement.Domain.Abstractions;
+
+namespace GDSCManagement.Domain.Models;
 
 public class Team : Entity
 {

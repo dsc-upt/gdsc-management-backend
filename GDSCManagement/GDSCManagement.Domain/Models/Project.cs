@@ -1,6 +1,8 @@
-﻿namespace GDSCManagement.API.Entities;
+﻿using GDSCManagement.Domain.Abstractions;
 
-public class Project: Entity
+namespace GDSCManagement.Domain.Models;
+
+public class Project : Entity
 {
     public string Name { get; set; }
     public User Manager { get; set; }

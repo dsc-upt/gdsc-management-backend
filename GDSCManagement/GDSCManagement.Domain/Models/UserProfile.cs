@@ -1,4 +1,6 @@
-﻿namespace GDSCManagement.API.Entities;
+﻿using GDSCManagement.Domain.Abstractions;
+
+namespace GDSCManagement.Domain.Models;
 
 public class UserProfile : Entity
 {
@@ -7,5 +9,4 @@ public class UserProfile : Entity
     public string FacebookLink { get; set; }
     public string Phone { get; set; }
     public DateOnly Birthday { get; set; }
-    
 }

@@ -1,8 +1,8 @@
-﻿namespace GDSCManagement.API.Entities;
+﻿namespace GDSCManagement.Domain.Abstractions;
 
 public abstract class Entity
 {
-    public int ID { get; set; }
+    public int Id { get; set; }
     public DateTime Created { get; set; }
     public DateTime Updated { get; set; }
 }

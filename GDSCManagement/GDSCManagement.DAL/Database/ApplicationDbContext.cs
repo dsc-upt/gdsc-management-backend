@@ -12,4 +12,5 @@ public class ApplicationDbContext : DbContext
     public DbSet<Project> Projects { get; set; }
     public DbSet<Team> Teams { get; set; }
     public DbSet<User> Users { get; set; }
+    public DbSet<UserProfile> UserProfiles { get; set; }
 }

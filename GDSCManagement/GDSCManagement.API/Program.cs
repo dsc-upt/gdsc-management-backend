@@ -10,7 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("database");
-builder.Services.AddDbContext<DbContext>(options => options.UseNpgsql(connectionString));
+builder.Services.AddDbContext<DbContext>(options =>
+    options.UseNpgsql(connectionString, b => b.MigrationsAssembly("GDSCManagement.API")));
 
 builder.Services.AddRepositories();
 

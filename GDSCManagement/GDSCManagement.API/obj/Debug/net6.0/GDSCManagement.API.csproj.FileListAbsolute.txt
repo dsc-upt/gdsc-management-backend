@@ -25,3 +25,15 @@ E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\obj\Debug\net6
 E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\obj\Debug\net6.0\ref\GDSCManagement.API.dll
 E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\obj\Debug\net6.0\GDSCManagement.API.pdb
 E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\obj\Debug\net6.0\GDSCManagement.API.genruntimeconfig.cache
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\appsettings.Local.json
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\Humanizer.dll
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\Npgsql.dll
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\GDSCManagement.DAL.dll
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\GDSCManagement.Domain.dll
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\GDSCManagement.DAL.pdb
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\GDSCManagement.Domain.pdb

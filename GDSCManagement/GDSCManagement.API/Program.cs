@@ -1,3 +1,4 @@
+using GDSCManagement.DAL.Database;
 using GDSCManagement.DAL.Utils;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("database");
-builder.Services.AddDbContext<DbContext>(options =>
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString, b => b.MigrationsAssembly("GDSCManagement.API")));
 
 builder.Services.AddRepositories();

@@ -9,5 +9,7 @@ public static class DalServices
     public static void AddRepositories(this IServiceCollection services)
     {
         services.AddSingleton(typeof(IRepository<>), typeof(Repository<>));
+        services.AddScoped<IUserRepository, UserRepository>();
+
     }
 }

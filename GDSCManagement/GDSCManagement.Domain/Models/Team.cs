@@ -6,4 +6,5 @@ public class Team : Entity
 {
     public string Name;
     public string GitHubLink { get; set; }
+    public ICollection<Project> Projects { get; set; }
 }

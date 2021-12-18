@@ -37,3 +37,4 @@ E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6
 E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\GDSCManagement.Domain.dll
 E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\GDSCManagement.DAL.pdb
 E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\GDSCManagement.Domain.pdb
+E:\GDSC\gdsc-management-backend\GDSCManagement\GDSCManagement.API\bin\Debug\net6.0\AutoMapper.dll

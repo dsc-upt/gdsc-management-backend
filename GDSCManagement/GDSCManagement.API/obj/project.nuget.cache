@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ykOUiU6CKYNQPB2rEZZ0pLvTxwxF/dsCpYoYZvS0Etz9U1FiuAlBBWKFIL2fU+/2FHwod4LK+epISWl63omHig==",
+  "dgSpecHash": "PGGoo2e/JoLiRkbJngEJ19BWf9/Mq9ByKk75cVKIDMCgicMMBpe8s+2WZIoNPY6O/e5bCAwMiXUcr1V0cEE2aw==",
   "success": true,
   "projectFilePath": "E:\\GDSC\\gdsc-management-backend\\GDSCManagement\\GDSCManagement.API\\GDSCManagement.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gaita\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Gaita\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Gaita\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Gaita\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\Gaita\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\Gaita\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
@@ -29,6 +31,7 @@
     "C:\\Users\\Gaita\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\Gaita\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Gaita\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gaita\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Gaita\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

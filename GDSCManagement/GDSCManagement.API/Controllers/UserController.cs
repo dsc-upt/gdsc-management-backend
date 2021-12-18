@@ -1,4 +1,6 @@
-﻿using GDSCManagement.DAL.Interfaces;
+﻿using AutoMapper;
+using GDSCManagement.DAL.Interfaces;
+using GDSCManagement.Domain.DTOS;
 using GDSCManagement.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,10 +11,12 @@ namespace GDSCManagement.API.Controllers;
 public class UserController : ControllerBase
 {
     private readonly IUserRepository _userRepository;
+    private readonly IMapper _mapper;
 
-    public UserController(IUserRepository userRepository)
+    public UserController(IUserRepository userRepository, IMapper mapper)
     {
         _userRepository = userRepository;
+        _mapper = mapper;
     }
 
     [HttpGet]
@@ -35,22 +39,22 @@ public class UserController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Add(User item)
+    public async Task<IActionResult> Add(UserRequest item)
     {
-        var user = new User
+        var user = _mapper.Map<User>(item);
+        user.Id = Guid.NewGuid().ToString();
+        user.Created = DateTime.UtcNow;
+        user.Updated = DateTime.UtcNow;
+
+        if (!_userRepository.CheckEmail(user.Email))
         {
-            Id = Guid.NewGuid().ToString(),
-            Created = DateTime.UtcNow,
-            Updated = DateTime.UtcNow,
-            Email = item.Email,
-            FirstName = item.FirstName,
-            LastName = item.LastName
-        };
+            return BadRequest("Not a valid Email");
+        }
 
         var response = await _userRepository.AddAsync(user);
         return Ok(response);
-
     }
+
 
     [HttpDelete]
     public async Task<IActionResult> Delete(User user)
